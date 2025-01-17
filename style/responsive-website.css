@@ -286,11 +286,17 @@ main > section{
         margin-left: 20px;
         margin-top: 20px;
     }
-    .footer{
-        margin: 0%;
-        
+     
+      .footer{
+        max-width: 100%;
+        margin:0px auto;
+        border-radius: 5px;
+        text-align: center;
+        padding-bottom: 50px;
     }
+    
 }
+
 
 
 
@@ -313,5 +319,13 @@ main > section{
     #experience-badge{
         margin-left: 20px;
         margin-top: 20px;
+    }
+    .footer{
+        max-width: 100%;
+        margin:0px auto;
+        border-radius: 5px;
+        text-align: center;
+        padding-bottom: 40px;
+        padding-top: 10px;
     }
 }
