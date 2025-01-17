@@ -242,7 +242,20 @@ main > section{
     font-size: 1rem;
     font-weight: 400;
 }
+/* footer style */
+.footer{
+    width: 1440px;
+    height: 100px;
+    margin: 240px;
+    border-radius: 8px;
+}
+.footer-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 38px;
 
+}
 
 
 /* responsive media query */
@@ -272,6 +285,10 @@ main > section{
     #experience-badge{
         margin-left: 20px;
         margin-top: 20px;
+    }
+    .footer{
+        margin: 0%;
+        
     }
 }
 
